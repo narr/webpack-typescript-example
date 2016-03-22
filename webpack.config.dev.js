@@ -47,10 +47,6 @@ module.exports = {
   resolve: {
     root: appPath
   },
-  node: {
-    // to deal with ModuleNotFoundError: Module not found: Error: Cannot resolve module 'fs
-    fs: 'empty'
-  },
   devtool: 'source-map',
   debug: true
 };

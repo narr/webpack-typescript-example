@@ -67,8 +67,5 @@ module.exports = {
   resolve: {
     root: appPath
   },
-  node: {
-    fs: 'empty'
-  },
   bail: true
 };
